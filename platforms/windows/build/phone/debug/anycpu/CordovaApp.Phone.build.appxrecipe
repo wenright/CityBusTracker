@@ -1,0 +1,724 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-TSCLUJV</Machine>
+    <WindowsUser>will</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows Phone 8.1</TargetOsDescription>
+    <SolutionConfiguration>debug|anycpu</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>35bf7240-6246-11e5-9dc0-d76dc00aa99e</PackageIdentityName>
+    <IntermediateOutputPath>S:\OneDrive\Programming\ionic\Bus\platforms\windows\build\phone\bld\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\build\phone\debug\anycpu\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\images\SplashScreen.scale-100.png">
+      <PackagePath>images\SplashScreen.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\images\SplashScreenPhone.scale-240.png">
+      <PackagePath>images\SplashScreenPhone.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\images\Square150x150Logo.scale-100.png">
+      <PackagePath>images\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\images\Square150x150Logo.scale-240.png">
+      <PackagePath>images\Square150x150Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\images\Square30x30Logo.scale-100.png">
+      <PackagePath>images\Square30x30Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\images\Square310x310Logo.scale-100.png">
+      <PackagePath>images\Square310x310Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\images\Square44x44Logo.scale-100.png">
+      <PackagePath>images\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\images\Square44x44Logo.scale-240.png">
+      <PackagePath>images\Square44x44Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\images\Square70x70Logo.scale-100.png">
+      <PackagePath>images\Square70x70Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\images\Square71x71Logo.scale-100.png">
+      <PackagePath>images\Square71x71Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\images\Square71x71Logo.scale-240.png">
+      <PackagePath>images\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\images\StoreLogo.scale-100.png">
+      <PackagePath>images\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\images\StoreLogo.scale-240.png">
+      <PackagePath>images\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\images\Wide310x150Logo.scale-100.png">
+      <PackagePath>images\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\images\Wide310x150Logo.scale-240.png">
+      <PackagePath>images\Wide310x150Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\img\ionic.png">
+      <PackagePath>www\img\ionic.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\cordova.js">
+      <PackagePath>www\cordova.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\cordova_plugins.js">
+      <PackagePath>www\cordova_plugins.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\js\app.js">
+      <PackagePath>www\js\app.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\js\compat.js">
+      <PackagePath>www\js\compat.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\angular-animate\angular-animate.js">
+      <PackagePath>www\lib\angular-animate\angular-animate.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\angular-animate\angular-animate.min.js">
+      <PackagePath>www\lib\angular-animate\angular-animate.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\angular-animate\index.js">
+      <PackagePath>www\lib\angular-animate\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\angular-sanitize\angular-sanitize.js">
+      <PackagePath>www\lib\angular-sanitize\angular-sanitize.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\angular-sanitize\angular-sanitize.min.js">
+      <PackagePath>www\lib\angular-sanitize\angular-sanitize.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\angular-sanitize\index.js">
+      <PackagePath>www\lib\angular-sanitize\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\angular-ui-router\release\angular-ui-router.js">
+      <PackagePath>www\lib\angular-ui-router\release\angular-ui-router.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\angular-ui-router\release\angular-ui-router.min.js">
+      <PackagePath>www\lib\angular-ui-router\release\angular-ui-router.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\angular-ui-router\src\common.js">
+      <PackagePath>www\lib\angular-ui-router\src\common.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\angular-ui-router\src\resolve.js">
+      <PackagePath>www\lib\angular-ui-router\src\resolve.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\angular-ui-router\src\state.js">
+      <PackagePath>www\lib\angular-ui-router\src\state.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\angular-ui-router\src\stateDirectives.js">
+      <PackagePath>www\lib\angular-ui-router\src\stateDirectives.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\angular-ui-router\src\stateFilters.js">
+      <PackagePath>www\lib\angular-ui-router\src\stateFilters.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\angular-ui-router\src\templateFactory.js">
+      <PackagePath>www\lib\angular-ui-router\src\templateFactory.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\angular-ui-router\src\urlMatcherFactory.js">
+      <PackagePath>www\lib\angular-ui-router\src\urlMatcherFactory.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\angular-ui-router\src\urlRouter.js">
+      <PackagePath>www\lib\angular-ui-router\src\urlRouter.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\angular-ui-router\src\view.js">
+      <PackagePath>www\lib\angular-ui-router\src\view.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\angular-ui-router\src\viewDirective.js">
+      <PackagePath>www\lib\angular-ui-router\src\viewDirective.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\angular-ui-router\src\viewScroll.js">
+      <PackagePath>www\lib\angular-ui-router\src\viewScroll.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\angular\angular.js">
+      <PackagePath>www\lib\angular\angular.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\angular\angular.min.js">
+      <PackagePath>www\lib\angular\angular.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\angular\index.js">
+      <PackagePath>www\lib\angular\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\ionic\js\ionic-angular.js">
+      <PackagePath>www\lib\ionic\js\ionic-angular.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\ionic\js\ionic-angular.min.js">
+      <PackagePath>www\lib\ionic\js\ionic-angular.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\ionic\js\ionic.bundle.js">
+      <PackagePath>www\lib\ionic\js\ionic.bundle.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\ionic\js\ionic.bundle.min.js">
+      <PackagePath>www\lib\ionic\js\ionic.bundle.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\ionic\js\ionic.js">
+      <PackagePath>www\lib\ionic\js\ionic.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\ionic\js\ionic.min.js">
+      <PackagePath>www\lib\ionic\js\ionic.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\dist\jquery.js">
+      <PackagePath>www\lib\jquery\dist\jquery.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\dist\jquery.min.js">
+      <PackagePath>www\lib\jquery\dist\jquery.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\ajax.js">
+      <PackagePath>www\lib\jquery\src\ajax.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\ajax\jsonp.js">
+      <PackagePath>www\lib\jquery\src\ajax\jsonp.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\ajax\load.js">
+      <PackagePath>www\lib\jquery\src\ajax\load.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\ajax\parseJSON.js">
+      <PackagePath>www\lib\jquery\src\ajax\parseJSON.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\ajax\parseXML.js">
+      <PackagePath>www\lib\jquery\src\ajax\parseXML.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\ajax\script.js">
+      <PackagePath>www\lib\jquery\src\ajax\script.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\ajax\var\nonce.js">
+      <PackagePath>www\lib\jquery\src\ajax\var\nonce.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\ajax\var\rquery.js">
+      <PackagePath>www\lib\jquery\src\ajax\var\rquery.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\ajax\xhr.js">
+      <PackagePath>www\lib\jquery\src\ajax\xhr.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\attributes.js">
+      <PackagePath>www\lib\jquery\src\attributes.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\attributes\attr.js">
+      <PackagePath>www\lib\jquery\src\attributes\attr.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\attributes\classes.js">
+      <PackagePath>www\lib\jquery\src\attributes\classes.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\attributes\prop.js">
+      <PackagePath>www\lib\jquery\src\attributes\prop.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\attributes\support.js">
+      <PackagePath>www\lib\jquery\src\attributes\support.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\attributes\val.js">
+      <PackagePath>www\lib\jquery\src\attributes\val.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\callbacks.js">
+      <PackagePath>www\lib\jquery\src\callbacks.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\core.js">
+      <PackagePath>www\lib\jquery\src\core.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\core\access.js">
+      <PackagePath>www\lib\jquery\src\core\access.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\core\init.js">
+      <PackagePath>www\lib\jquery\src\core\init.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\core\parseHTML.js">
+      <PackagePath>www\lib\jquery\src\core\parseHTML.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\core\ready.js">
+      <PackagePath>www\lib\jquery\src\core\ready.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\core\var\rsingleTag.js">
+      <PackagePath>www\lib\jquery\src\core\var\rsingleTag.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\css.js">
+      <PackagePath>www\lib\jquery\src\css.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\css\addGetHookIf.js">
+      <PackagePath>www\lib\jquery\src\css\addGetHookIf.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\css\curCSS.js">
+      <PackagePath>www\lib\jquery\src\css\curCSS.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\css\defaultDisplay.js">
+      <PackagePath>www\lib\jquery\src\css\defaultDisplay.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\css\hiddenVisibleSelectors.js">
+      <PackagePath>www\lib\jquery\src\css\hiddenVisibleSelectors.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\css\support.js">
+      <PackagePath>www\lib\jquery\src\css\support.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\css\swap.js">
+      <PackagePath>www\lib\jquery\src\css\swap.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\css\var\cssExpand.js">
+      <PackagePath>www\lib\jquery\src\css\var\cssExpand.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\css\var\getStyles.js">
+      <PackagePath>www\lib\jquery\src\css\var\getStyles.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\css\var\isHidden.js">
+      <PackagePath>www\lib\jquery\src\css\var\isHidden.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\css\var\rmargin.js">
+      <PackagePath>www\lib\jquery\src\css\var\rmargin.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\css\var\rnumnonpx.js">
+      <PackagePath>www\lib\jquery\src\css\var\rnumnonpx.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\data.js">
+      <PackagePath>www\lib\jquery\src\data.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\data\accepts.js">
+      <PackagePath>www\lib\jquery\src\data\accepts.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\data\Data.js">
+      <PackagePath>www\lib\jquery\src\data\Data.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\data\var\data_priv.js">
+      <PackagePath>www\lib\jquery\src\data\var\data_priv.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\data\var\data_user.js">
+      <PackagePath>www\lib\jquery\src\data\var\data_user.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\deferred.js">
+      <PackagePath>www\lib\jquery\src\deferred.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\deprecated.js">
+      <PackagePath>www\lib\jquery\src\deprecated.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\dimensions.js">
+      <PackagePath>www\lib\jquery\src\dimensions.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\effects.js">
+      <PackagePath>www\lib\jquery\src\effects.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\effects\animatedSelector.js">
+      <PackagePath>www\lib\jquery\src\effects\animatedSelector.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\effects\Tween.js">
+      <PackagePath>www\lib\jquery\src\effects\Tween.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\event.js">
+      <PackagePath>www\lib\jquery\src\event.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\event\ajax.js">
+      <PackagePath>www\lib\jquery\src\event\ajax.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\event\alias.js">
+      <PackagePath>www\lib\jquery\src\event\alias.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\event\support.js">
+      <PackagePath>www\lib\jquery\src\event\support.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\exports\amd.js">
+      <PackagePath>www\lib\jquery\src\exports\amd.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\exports\global.js">
+      <PackagePath>www\lib\jquery\src\exports\global.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\intro.js">
+      <PackagePath>www\lib\jquery\src\intro.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\jquery.js">
+      <PackagePath>www\lib\jquery\src\jquery.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\manipulation.js">
+      <PackagePath>www\lib\jquery\src\manipulation.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\manipulation\support.js">
+      <PackagePath>www\lib\jquery\src\manipulation\support.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\manipulation\var\rcheckableType.js">
+      <PackagePath>www\lib\jquery\src\manipulation\var\rcheckableType.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\manipulation\_evalUrl.js">
+      <PackagePath>www\lib\jquery\src\manipulation\_evalUrl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\offset.js">
+      <PackagePath>www\lib\jquery\src\offset.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\outro.js">
+      <PackagePath>www\lib\jquery\src\outro.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\queue.js">
+      <PackagePath>www\lib\jquery\src\queue.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\queue\delay.js">
+      <PackagePath>www\lib\jquery\src\queue\delay.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\selector-native.js">
+      <PackagePath>www\lib\jquery\src\selector-native.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\selector-sizzle.js">
+      <PackagePath>www\lib\jquery\src\selector-sizzle.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\selector.js">
+      <PackagePath>www\lib\jquery\src\selector.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\serialize.js">
+      <PackagePath>www\lib\jquery\src\serialize.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\sizzle\dist\sizzle.js">
+      <PackagePath>www\lib\jquery\src\sizzle\dist\sizzle.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\sizzle\dist\sizzle.min.js">
+      <PackagePath>www\lib\jquery\src\sizzle\dist\sizzle.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\traversing.js">
+      <PackagePath>www\lib\jquery\src\traversing.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\traversing\findFilter.js">
+      <PackagePath>www\lib\jquery\src\traversing\findFilter.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\traversing\var\rneedsContext.js">
+      <PackagePath>www\lib\jquery\src\traversing\var\rneedsContext.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\var\arr.js">
+      <PackagePath>www\lib\jquery\src\var\arr.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\var\class2type.js">
+      <PackagePath>www\lib\jquery\src\var\class2type.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\var\concat.js">
+      <PackagePath>www\lib\jquery\src\var\concat.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\var\hasOwn.js">
+      <PackagePath>www\lib\jquery\src\var\hasOwn.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\var\indexOf.js">
+      <PackagePath>www\lib\jquery\src\var\indexOf.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\var\pnum.js">
+      <PackagePath>www\lib\jquery\src\var\pnum.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\var\push.js">
+      <PackagePath>www\lib\jquery\src\var\push.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\var\rnotwhite.js">
+      <PackagePath>www\lib\jquery\src\var\rnotwhite.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\var\slice.js">
+      <PackagePath>www\lib\jquery\src\var\slice.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\var\strundefined.js">
+      <PackagePath>www\lib\jquery\src\var\strundefined.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\var\support.js">
+      <PackagePath>www\lib\jquery\src\var\support.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\var\toString.js">
+      <PackagePath>www\lib\jquery\src\var\toString.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\wrap.js">
+      <PackagePath>www\lib\jquery\src\wrap.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\winjs\base.min.js">
+      <PackagePath>www\lib\winjs\base.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\winjs\ui.min.js">
+      <PackagePath>www\lib\winjs\ui.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\plugins\cordova-plugin-console\www\console-via-logger.js">
+      <PackagePath>www\plugins\cordova-plugin-console\www\console-via-logger.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\plugins\cordova-plugin-console\www\logger.js">
+      <PackagePath>www\plugins\cordova-plugin-console\www\logger.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\plugins\cordova-plugin-device\src\windows\DeviceProxy.js">
+      <PackagePath>www\plugins\cordova-plugin-device\src\windows\DeviceProxy.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\plugins\cordova-plugin-device\www\device.js">
+      <PackagePath>www\plugins\cordova-plugin-device\www\device.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\plugins\cordova-plugin-splashscreen\www\splashscreen.js">
+      <PackagePath>www\plugins\cordova-plugin-splashscreen\www\splashscreen.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\plugins\cordova-plugin-splashscreen\www\windows\SplashScreenProxy.js">
+      <PackagePath>www\plugins\cordova-plugin-splashscreen\www\windows\SplashScreenProxy.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\plugins\ionic-plugin-keyboard\src\windows\KeyboardProxy.js">
+      <PackagePath>www\plugins\ionic-plugin-keyboard\src\windows\KeyboardProxy.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\WinJS\js\base.js">
+      <PackagePath>www\WinJS\js\base.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\css\style.css">
+      <PackagePath>www\css\style.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\angular\angular-csp.css">
+      <PackagePath>www\lib\angular\angular-csp.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\ionic\css\ionic.css">
+      <PackagePath>www\lib\ionic\css\ionic.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\ionic\css\ionic.min.css">
+      <PackagePath>www\lib\ionic\css\ionic.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\index.html">
+      <PackagePath>www\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\angular-animate\.bower.json">
+      <PackagePath>www\lib\angular-animate\.bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\angular-animate\bower.json">
+      <PackagePath>www\lib\angular-animate\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\angular-animate\package.json">
+      <PackagePath>www\lib\angular-animate\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\angular-sanitize\.bower.json">
+      <PackagePath>www\lib\angular-sanitize\.bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\angular-sanitize\bower.json">
+      <PackagePath>www\lib\angular-sanitize\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\angular-sanitize\package.json">
+      <PackagePath>www\lib\angular-sanitize\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\angular-ui-router\.bower.json">
+      <PackagePath>www\lib\angular-ui-router\.bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\angular-ui-router\bower.json">
+      <PackagePath>www\lib\angular-ui-router\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\angular\.bower.json">
+      <PackagePath>www\lib\angular\.bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\angular\bower.json">
+      <PackagePath>www\lib\angular\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\angular\package.json">
+      <PackagePath>www\lib\angular\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\ionic\.bower.json">
+      <PackagePath>www\lib\ionic\.bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\ionic\bower.json">
+      <PackagePath>www\lib\ionic\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\.bower.json">
+      <PackagePath>www\lib\jquery\.bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\bower.json">
+      <PackagePath>www\lib\jquery\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\angular-animate\angular-animate.min.js.map">
+      <PackagePath>www\lib\angular-animate\angular-animate.min.js.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\angular-sanitize\angular-sanitize.min.js.map">
+      <PackagePath>www\lib\angular-sanitize\angular-sanitize.min.js.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\angular\angular.min.js.map">
+      <PackagePath>www\lib\angular\angular.min.js.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\dist\jquery.min.map">
+      <PackagePath>www\lib\jquery\dist\jquery.min.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\src\sizzle\dist\sizzle.min.map">
+      <PackagePath>www\lib\jquery\src\sizzle\dist\sizzle.min.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\angular-animate\README.md">
+      <PackagePath>www\lib\angular-animate\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\angular-sanitize\README.md">
+      <PackagePath>www\lib\angular-sanitize\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\angular-ui-router\CHANGELOG.md">
+      <PackagePath>www\lib\angular-ui-router\CHANGELOG.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\angular-ui-router\CONTRIBUTING.md">
+      <PackagePath>www\lib\angular-ui-router\CONTRIBUTING.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\angular-ui-router\README.md">
+      <PackagePath>www\lib\angular-ui-router\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\angular\README.md">
+      <PackagePath>www\lib\angular\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\ionic\README.md">
+      <PackagePath>www\lib\ionic\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\angular-ui-router\api\angular-ui-router.d.ts">
+      <PackagePath>www\lib\angular-ui-router\api\angular-ui-router.d.ts</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\angular-ui-router\LICENSE">
+      <PackagePath>www\lib\angular-ui-router\LICENSE</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\angular\angular.min.js.gzip">
+      <PackagePath>www\lib\angular\angular.min.js.gzip</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\ionic\fonts\ionicons.eot">
+      <PackagePath>www\lib\ionic\fonts\ionicons.eot</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\ionic\fonts\ionicons.svg">
+      <PackagePath>www\lib\ionic\fonts\ionicons.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\ionic\fonts\ionicons.ttf">
+      <PackagePath>www\lib\ionic\fonts\ionicons.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\ionic\fonts\ionicons.woff">
+      <PackagePath>www\lib\ionic\fonts\ionicons.woff</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\ionic\scss\ionic.scss">
+      <PackagePath>www\lib\ionic\scss\ionic.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\ionic\scss\ionicons\ionicons.scss">
+      <PackagePath>www\lib\ionic\scss\ionicons\ionicons.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\ionic\scss\ionicons\_ionicons-animation.scss">
+      <PackagePath>www\lib\ionic\scss\ionicons\_ionicons-animation.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\ionic\scss\ionicons\_ionicons-font.scss">
+      <PackagePath>www\lib\ionic\scss\ionicons\_ionicons-font.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\ionic\scss\ionicons\_ionicons-icons.scss">
+      <PackagePath>www\lib\ionic\scss\ionicons\_ionicons-icons.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\ionic\scss\ionicons\_ionicons-variables.scss">
+      <PackagePath>www\lib\ionic\scss\ionicons\_ionicons-variables.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\ionic\scss\_action-sheet.scss">
+      <PackagePath>www\lib\ionic\scss\_action-sheet.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\ionic\scss\_animations.scss">
+      <PackagePath>www\lib\ionic\scss\_animations.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\ionic\scss\_backdrop.scss">
+      <PackagePath>www\lib\ionic\scss\_backdrop.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\ionic\scss\_badge.scss">
+      <PackagePath>www\lib\ionic\scss\_badge.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\ionic\scss\_bar.scss">
+      <PackagePath>www\lib\ionic\scss\_bar.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\ionic\scss\_button-bar.scss">
+      <PackagePath>www\lib\ionic\scss\_button-bar.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\ionic\scss\_button.scss">
+      <PackagePath>www\lib\ionic\scss\_button.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\ionic\scss\_checkbox.scss">
+      <PackagePath>www\lib\ionic\scss\_checkbox.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\ionic\scss\_form.scss">
+      <PackagePath>www\lib\ionic\scss\_form.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\ionic\scss\_grid.scss">
+      <PackagePath>www\lib\ionic\scss\_grid.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\ionic\scss\_items.scss">
+      <PackagePath>www\lib\ionic\scss\_items.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\ionic\scss\_list.scss">
+      <PackagePath>www\lib\ionic\scss\_list.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\ionic\scss\_loaders.scss">
+      <PackagePath>www\lib\ionic\scss\_loaders.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\ionic\scss\_loading.scss">
+      <PackagePath>www\lib\ionic\scss\_loading.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\ionic\scss\_menu.scss">
+      <PackagePath>www\lib\ionic\scss\_menu.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\ionic\scss\_mixins.scss">
+      <PackagePath>www\lib\ionic\scss\_mixins.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\ionic\scss\_modal.scss">
+      <PackagePath>www\lib\ionic\scss\_modal.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\ionic\scss\_platform.scss">
+      <PackagePath>www\lib\ionic\scss\_platform.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\ionic\scss\_popover.scss">
+      <PackagePath>www\lib\ionic\scss\_popover.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\ionic\scss\_popup.scss">
+      <PackagePath>www\lib\ionic\scss\_popup.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\ionic\scss\_progress.scss">
+      <PackagePath>www\lib\ionic\scss\_progress.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\ionic\scss\_radio.scss">
+      <PackagePath>www\lib\ionic\scss\_radio.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\ionic\scss\_range.scss">
+      <PackagePath>www\lib\ionic\scss\_range.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\ionic\scss\_refresher.scss">
+      <PackagePath>www\lib\ionic\scss\_refresher.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\ionic\scss\_reset.scss">
+      <PackagePath>www\lib\ionic\scss\_reset.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\ionic\scss\_scaffolding.scss">
+      <PackagePath>www\lib\ionic\scss\_scaffolding.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\ionic\scss\_select.scss">
+      <PackagePath>www\lib\ionic\scss\_select.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\ionic\scss\_slide-box.scss">
+      <PackagePath>www\lib\ionic\scss\_slide-box.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\ionic\scss\_spinner.scss">
+      <PackagePath>www\lib\ionic\scss\_spinner.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\ionic\scss\_split-pane.scss">
+      <PackagePath>www\lib\ionic\scss\_split-pane.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\ionic\scss\_tabs.scss">
+      <PackagePath>www\lib\ionic\scss\_tabs.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\ionic\scss\_toggle.scss">
+      <PackagePath>www\lib\ionic\scss\_toggle.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\ionic\scss\_transitions.scss">
+      <PackagePath>www\lib\ionic\scss\_transitions.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\ionic\scss\_type.scss">
+      <PackagePath>www\lib\ionic\scss\_type.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\ionic\scss\_util.scss">
+      <PackagePath>www\lib\ionic\scss\_util.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\ionic\scss\_variables.scss">
+      <PackagePath>www\lib\ionic\scss\_variables.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\www\lib\jquery\MIT-LICENSE.txt">
+      <PackagePath>www\lib\jquery\MIT-LICENSE.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\config.xml">
+      <PackagePath>config.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="S:\OneDrive\Programming\ionic\Bus\platforms\windows\build\phone\debug\anycpu\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\Microsoft.Phone.WinJS.2.1\1.0\">
+      <Name>Microsoft.Phone.WinJS.2.1</Name>
+      <Version>1.0.9651.0</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.Phone.WinJS.2.1, MinVersion=1.0.9651.0</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\Microsoft.Phone.WinJS.2.1\1.0\Microsoft.Phone.WinJS.2.1.appx</AppxLocation>
+      <MoreInfo>http://go.microsoft.com/fwlink/%3fLinkId=260891</MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

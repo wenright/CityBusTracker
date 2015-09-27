@@ -1,0 +1,21 @@
+<ion-view view-title="{{selected.name}}">
+  <ion-nav-buttons side="secondary">
+         <button
+         class="button button-clear icon ion-loop button-dark icon-right"
+         ng-click="loadTimes(selected.stopID)">
+         </button>
+    </ion-nav-buttons>
+
+  <ion-content>
+
+    <div class="spinner">
+      <ion-spinner class="spinner-calm" icon="crescent" ng-hide="loaded"></ion-spinner>
+    </div>
+
+    <ion-list>
+      <ion-item ng-repeat="time in times">
+        {{time}}
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

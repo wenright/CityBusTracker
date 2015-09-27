@@ -1,0 +1,50 @@
+/* Empty. Add your own CSS if you like */
+
+/* Dropdown for bus stop selection */
+.list {
+  text-align: center;
+  margin: auto;
+  margin-top: 0px;
+  width: 100%;
+}
+
+.item {
+  height: 35px;
+}
+
+select {
+  margin-top: 5px;
+}
+
+/* Spinner for loading bus times */
+div.spinner {
+  text-align: center;
+}
+.spinner svg {
+  width: 30% !important;
+  height: 75vh !important;
+}
+
+/* Gets spinners to work for Windows Phone */
+.platform-windowsphone8 {
+  .spinner-ios,
+  .spinner-ios-small,
+  .spinner-circles,
+  .spinner-crescent{
+    svg {
+      animation:spin 1250ms linear infinite;
+    }
+  }
+  .spinner-spiral svg{
+    animation:spin 750ms linear infinite;
+  }
+}
+@-webkit-keyframes spin {
+  from { -webkit-transform: rotate(0deg) }
+  to { -webkit-transform: rotate(360deg) }
+}
+@keyframes spin
+{
+  from { transform:rotate(0deg); }
+  to { transform:rotate(360deg); }
+}

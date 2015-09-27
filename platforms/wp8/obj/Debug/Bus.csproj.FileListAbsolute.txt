@@ -1,0 +1,14 @@
+S:\OneDrive\Programming\ionic\Bus\platforms\wp8\Bin\Debug\ApplicationIcon.png
+S:\OneDrive\Programming\ionic\Bus\platforms\wp8\Bin\Debug\Background.png
+S:\OneDrive\Programming\ionic\Bus\platforms\wp8\Bin\Debug\com.ionicframework.bus447485.dll
+S:\OneDrive\Programming\ionic\Bus\platforms\wp8\Bin\Debug\com.ionicframework.bus447485.pdb
+S:\OneDrive\Programming\ionic\Bus\platforms\wp8\Bin\Debug\AppManifest.xaml
+S:\OneDrive\Programming\ionic\Bus\platforms\wp8\Bin\Debug\Properties\WMAppManifest.xml
+S:\OneDrive\Programming\ionic\Bus\platforms\wp8\Bin\Debug\CordovaAppProj_Debug_AnyCPU.xap
+S:\OneDrive\Programming\ionic\Bus\platforms\wp8\obj\Debug\App.g.cs
+S:\OneDrive\Programming\ionic\Bus\platforms\wp8\obj\Debug\cordovalib\CordovaView.g.cs
+S:\OneDrive\Programming\ionic\Bus\platforms\wp8\obj\Debug\MainPage.g.cs
+S:\OneDrive\Programming\ionic\Bus\platforms\wp8\obj\Debug\com.ionicframework.bus447485.g.resources
+S:\OneDrive\Programming\ionic\Bus\platforms\wp8\obj\Debug\com.ionicframework.bus447485.dll
+S:\OneDrive\Programming\ionic\Bus\platforms\wp8\obj\Debug\com.ionicframework.bus447485.pdb
+S:\OneDrive\Programming\ionic\Bus\platforms\wp8\obj\Debug\XapCacheFile.xml

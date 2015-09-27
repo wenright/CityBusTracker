@@ -1,0 +1,9 @@
+<ion-view view-title="Bus Stops">
+  <ion-content>
+    <ion-list>
+      <ion-item ng-repeat="stop in stops" href="#/app/stops/{{stop}}" ng-model="selected" ng-change="loadTimes()">
+        {{stop.name}}
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

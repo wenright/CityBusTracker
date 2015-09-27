@@ -1,0 +1,17 @@
+/* Empty. Add your own CSS if you like */
+
+/* Dropdown for bus stop selection */
+.list {
+  text-align: center;
+  margin: auto;
+  width: 200px;
+}
+
+/* Spinner for loading bus times */
+div.spinner {
+  text-align: center;
+}
+.spinner svg {
+  width: 30% !important;
+  height: 75vh !important;
+}

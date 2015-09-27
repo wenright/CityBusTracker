@@ -1,0 +1,27 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "Bus"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "Bus"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "Bus"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "Bus"
+        },
+        "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "Bus"
+        }
+    },
+    "dependent_plugins": {}
+}
