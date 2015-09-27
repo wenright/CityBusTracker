@@ -4,7 +4,7 @@
     <mp:PhoneIdentity PhoneProductId="35bf7240-6246-11e5-9dc0-d76dc00aa99e" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
     <Properties>
         <DisplayName>Bus</DisplayName>
-        <PublisherDisplayName>Ionic Framework Team</PublisherDisplayName>
+        <PublisherDisplayName>Will Enright</PublisherDisplayName>
         <Logo>images\StoreLogo.png</Logo>
     </Properties>
     <Dependencies>

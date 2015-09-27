@@ -1,17 +1,14 @@
-﻿/* Empty. Add your own CSS if you like */
-
-/* Dropdown for bus stop selection */
-.list {
-  text-align: center;
-  margin: auto;
-  width: 200px;
+﻿/* Spinner for loading bus times */
+.button-spinner {
+  animation:spin 1500ms linear infinite;
 }
 
-/* Spinner for loading bus times */
-div.spinner {
-  text-align: center;
+@-webkit-keyframes spin {
+  from { -webkit-transform: rotate(0deg) }
+  to { -webkit-transform: rotate(360deg) }
 }
-.spinner svg {
-  width: 30% !important;
-  height: 75vh !important;
+@keyframes spin
+{
+  from { transform:rotate(0deg); }
+  to { transform:rotate(360deg); }
 }

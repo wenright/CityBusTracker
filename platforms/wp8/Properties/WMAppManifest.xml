@@ -4,7 +4,7 @@
     <Languages xmlns="">
         <Language code="en-US" />
     </Languages>
-    <App Author="Ionic Framework Team" BitsPerPixel="32" Description="An Ionic Framework and Cordova project." Genre="apps.normal" ProductID="{5ad30e90-625d-11e5-9728-5544a498b8e5}" Publisher="Ionic Framework Team" PublisherID="{db093ed5-53b1-45f7-af72-751e8f36ab80}" RuntimeType="Silverlight" Title="Bus" Version="0.0.1" xmlns="">
+    <App Author="Will Enright" BitsPerPixel="32" Description="A simple app to display the estimated time arrivals for Purdue City Bus" Genre="apps.normal" ProductID="{5ad30e90-625d-11e5-9728-5544a498b8e5}" Publisher="Will Enright" PublisherID="{db093ed5-53b1-45f7-af72-751e8f36ab80}" RuntimeType="Silverlight" Title="Bus" Version="0.0.1" xmlns="">
         <IconPath IsRelative="true" IsResource="false">ApplicationIcon.png</IconPath>
         <Capabilities>
             <Capability Name="ID_CAP_WEBBROWSERCOMPONENT" />

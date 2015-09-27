@@ -12,11 +12,11 @@
     </feature>
     <name>Bus</name>
     <description>
-        An Ionic Framework and Cordova project.
+        A simple app to display the estimated time arrivals for Purdue City Bus
     </description>
-    <author email="hi@ionicframework" href="http://ionicframework.com/">
-      Ionic Framework Team
-    </author>
+    <author email="will@aaichicago.com" href="http://github.com/wenright">
+      Will Enright
+  </author>
     <content src="index.html" />
     <access origin="*" />
     <preference name="webviewbounce" value="false" />
@@ -25,5 +25,5 @@
     <preference name="android-minSdkVersion" value="16" />
     <preference name="BackupWebStorage" value="none" />
     <preference name="SplashScreen" value="screen" />
-    <preference name="SplashScreenDelay" value="3000" />
+    <preference name="SplashScreenDelay" value="0" />
 </widget>
