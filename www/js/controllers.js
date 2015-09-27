@@ -63,6 +63,13 @@ angular.module('controllers', [])
 })
 
 .controller('StopCtrl', function($scope, $stateParams) {
-  $scope.selected = JSON.parse($stateParams.selected);
+  $scope.selected = [];
+  $scope.selected.name = $stateParams.name;
+  $scope.selected.stopID = $stateParams.stopID;
+
   $scope.loadTimes ($scope.selected.stopID);
+})
+
+.controller('BrowseCtrl', function($scope) {
+
 });

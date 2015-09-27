@@ -28,7 +28,8 @@ angular.module('starter', ['ionic', 'controllers'])
       url: '/browse',
       views: {
         'menuContent': {
-          templateUrl: 'templates/browse.html'
+          templateUrl: 'templates/browse.html',
+          controller: 'BrowseCtrl'
         }
       }
     })
@@ -43,7 +44,7 @@ angular.module('starter', ['ionic', 'controllers'])
     })
 
   .state('app.single', {
-    url: '/stops/:selected',
+    url: '/stops/:name/:stopID',
     views: {
       'menuContent': {
         templateUrl: 'templates/stop.html',
