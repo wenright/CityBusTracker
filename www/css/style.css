@@ -1,27 +1,8 @@
 /* Spinner for loading bus times */
-div.spinner {
-  text-align: center;
-  height: 100%;
-}
-.spinner svg {
-  width: 30vh !important;
-  height: 30vh !important;
+.button-spinner {
+  animation:spin 1500ms linear infinite;
 }
 
-/* Gets spinners to work for Windows Phone */
-.platform-windowsphone8 {
-  .spinner-ios,
-  .spinner-ios-small,
-  .spinner-circles,
-  .spinner-crescent{
-    svg {
-      animation:spin 1250ms linear infinite;
-    }
-  }
-  .spinner-spiral svg{
-    animation:spin 750ms linear infinite;
-  }
-}
 @-webkit-keyframes spin {
   from { -webkit-transform: rotate(0deg) }
   to { -webkit-transform: rotate(360deg) }

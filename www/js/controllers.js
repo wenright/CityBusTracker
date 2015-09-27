@@ -21,32 +21,45 @@ angular.module('controllers', [])
 
     get ('http://myride.gocitybus.com/public/laf/web/ViewStopNew.aspx?sp=' + stopID)
     .then (function (data)  {
-      var times = $(data).find('span');
-      for (var i = 4; i < times.length; i += 2) {
-        $scope.times.push (times[i].innerText + " in " + times[i + 1].innerText);
+      if (!$scope.cancelLoading) {
+        var times = $(data).find('span');
+        for (var i = 4; i < times.length; i += 2) {
+          var t = times[i + 1].innerText;
+          if (t === 'DUE') {
+            $scope.times.push (times[i].innerText + ', DUE');
+          }
+          else {
+            $scope.times.push (times[i].innerText + ' will arrive in ' + t);
+          }
+        }
+
+        $scope.loaded = true;
+
+        // Let the user know that there aren't any buses coming
+        if ($scope.times.length === 0) {
+          $ionicPopup.alert({
+            title: 'No buses',
+            template: 'Looks like there aren\'t any buses coming for a while'
+          });
+        }
       }
-
-      $scope.loaded = true;
-
-      // Let the user know that there aren't any buses coming
-      if ($scope.times.length === 0) {
-        $ionicPopup.alert({
-          title: 'No buses',
-          template: 'Looks like there aren\'t any buses coming for a while'
-        });
+      else {
+        console.log("Saved the day!");
       }
     },
     function (error) {
-      console.log ('Failed retrieving data from API');
+      if (!$scope.cancelLoading) {
+        console.log ('Failed retrieving data from API');
 
-      // Although it failed, we don't want user thinking it is still loading
-      $scope.loaded = true;
+        // Although it failed, we don't want user thinking it is still loading
+        $scope.loaded = true;
 
-      // Let the user know something went wrong
-      $ionicPopup.alert({
-        title: 'Couldn\'t load bus schedule :(',
-        template: 'This could be either because of a poor connection or a bug in this program.'
-      });
+        // Let the user know something went wrong
+        $ionicPopup.alert({
+          title: 'Couldn\'t load bus schedule :(',
+          template: 'This could be either because of a poor connection or a bug in this program.'
+        });
+      }
     });
   };
 
@@ -68,6 +81,11 @@ angular.module('controllers', [])
   $scope.selected.stopID = $stateParams.stopID;
 
   $scope.loadTimes ($scope.selected.stopID);
+
+  $scope.cancelLoading = false;
+  $scope.$on("$destroy", function(){
+    $scope.cancelLoading = true;
+  });
 })
 
 .controller('BrowseCtrl', function($scope) {
