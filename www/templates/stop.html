@@ -9,7 +9,7 @@
 
   <ion-content has-bouncing="true">
     <ion-list>
-      <ion-item ng-repeat="time in times">
+      <ion-item ng-repeat="time in times track by $index">
         {{time}}
       </ion-item>
     </ion-list>
