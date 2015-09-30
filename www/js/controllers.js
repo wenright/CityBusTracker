@@ -1,6 +1,6 @@
 angular.module('controllers', [])
 
-.controller('AppCtrl', function($scope, $ionicModal, $timeout, $q, $http, $ionicPopup) {
+.controller('AppCtrl', function($scope, $rootScope, $ionicModal, $timeout, $q, $http, $ionicPopup) {
   $scope.loadTimes = function (stopID) {
     $scope.times = [];
     $scope.loaded = false;
@@ -21,7 +21,7 @@ angular.module('controllers', [])
 
     get ('http://myride.gocitybus.com/public/laf/web/ViewStopNew.aspx?sp=' + stopID)
     .then (function (data)  {
-      if (!$scope.cancelLoading) {
+      if (!$rootScope.cancelLoading) {
         var times = $(data).find('span');
         for (var i = 4; i < times.length; i += 2) {
           var t = times[i + 1].innerText;
@@ -44,11 +44,11 @@ angular.module('controllers', [])
         }
       }
       else {
-        console.log("Saved the day!");
+        console.log("Didn't load page because request was canceled by user");
       }
     },
     function (error) {
-      if (!$scope.cancelLoading) {
+      if (!$rootScope.cancelLoading) {
         console.log ('Failed retrieving data from API');
 
         // Although it failed, we don't want user thinking it is still loading
@@ -63,7 +63,6 @@ angular.module('controllers', [])
     });
   };
 
-  // Don't show spinner until user has selected stop to load
   $scope.loaded = true;
 })
 
@@ -75,16 +74,16 @@ angular.module('controllers', [])
   ];
 })
 
-.controller('StopCtrl', function($scope, $stateParams) {
+.controller('StopCtrl', function($scope, $rootScope, $stateParams) {
   $scope.selected = [];
   $scope.selected.name = $stateParams.name;
   $scope.selected.stopID = $stateParams.stopID;
 
   $scope.loadTimes ($scope.selected.stopID);
 
-  $scope.cancelLoading = false;
+  $rootScope.cancelLoading = false;
   $scope.$on("$destroy", function(){
-    $scope.cancelLoading = true;
+    $rootScope.cancelLoading = true;
   });
 })
 
