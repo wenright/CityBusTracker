@@ -22,6 +22,8 @@ angular.module('controllers', [])
     get ('http://myride.gocitybus.com/public/laf/web/ViewStopNew.aspx?sp=' + stopID)
     .then (function (data)  {
       if (!$rootScope.cancelLoading) {
+        // Remove all images, as they will just 404
+        data = data.replace (/<img[^>]*>/g, "");
         var times = $(data).find('span');
         for (var i = 4; i < times.length; i += 2) {
           var t = times[i + 1].innerText;
