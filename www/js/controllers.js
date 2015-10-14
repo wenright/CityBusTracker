@@ -28,7 +28,7 @@ angular.module('controllers', [])
         for (var i = 4; i < times.length; i += 2) {
           var t = times[i + 1].innerText;
           if (t === 'DUE') {
-            $scope.times.push (times[i].innerText + 'is due to arrive');
+            $scope.times.push (times[i].innerText + ' is due to arrive');
           }
           else {
             $scope.times.push (times[i].innerText + ' will arrive in ' + t);
