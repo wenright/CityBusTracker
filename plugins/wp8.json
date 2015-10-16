@@ -37,19 +37,19 @@
     },
     "installed_plugins": {
         "cordova-plugin-console": {
-            "PACKAGE_NAME": "{5ad30e90-625d-11e5-9728-5544a498b8e5}"
+            "PACKAGE_NAME": "{e18ecef0-73ac-11e5-8966-0f000af78adc}"
         },
         "cordova-plugin-device": {
-            "PACKAGE_NAME": "{5ad30e90-625d-11e5-9728-5544a498b8e5}"
+            "PACKAGE_NAME": "{e18ecef0-73ac-11e5-8966-0f000af78adc}"
         },
         "cordova-plugin-splashscreen": {
-            "PACKAGE_NAME": "{5ad30e90-625d-11e5-9728-5544a498b8e5}"
+            "PACKAGE_NAME": "{e18ecef0-73ac-11e5-8966-0f000af78adc}"
         },
         "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "{5ad30e90-625d-11e5-9728-5544a498b8e5}"
+            "PACKAGE_NAME": "{e18ecef0-73ac-11e5-8966-0f000af78adc}"
         },
         "ionic-plugin-keyboard": {
-            "PACKAGE_NAME": "{5ad30e90-625d-11e5-9728-5544a498b8e5}"
+            "PACKAGE_NAME": "{e18ecef0-73ac-11e5-8966-0f000af78adc}"
         }
     },
     "dependent_plugins": {}

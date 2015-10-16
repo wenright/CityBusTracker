@@ -4,6 +4,7 @@
       <div ng-if="myStops">
         <ion-item ng-repeat="stop in myStops track by stop.index" href="#/app/stops/{{stop.name}}/{{stop.stopID}}">
           {{stop.name}}
+          <i class="icon ion-arrow-right-c" style="float: right;"></i>
         </ion-item>
       </div>
     </ion-list>
