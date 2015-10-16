@@ -11,7 +11,6 @@ angular.module('controllers')
   var myStops = $localStorage.getArray('myStops');
   for (var i = 0; i < myStops.length; i++) {
     var stop = myStops[i];
-    console.log(stop);
     $scope.stops[stop.index].active = stop.active;
   }
 
@@ -28,6 +27,5 @@ angular.module('controllers')
     else {
       $localStorage.remove('myStops', stop);
     }
-    console.log($localStorage.getArray('myStops'));
   };
 });

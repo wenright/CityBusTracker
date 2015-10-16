@@ -1,13 +1,18 @@
 <ion-view view-title="{{selected.name}}">
-  <ion-nav-buttons side="secondary">
-         <button
-         class="button button-clear icon ion-loop button-light icon-right button-spinner"
-         ng-class="loaded ? '' : 'button-spinner'"
-         ng-click="loadTimes(selected.stopID)">
-         </button>
-    </ion-nav-buttons>
+  <!-- <ion-nav-buttons side="secondary">
+     <button
+     class="button button-clear icon ion-loop button-light icon-right button-spinner"
+     ng-class="loaded ? '' : 'button-spinner'"
+     ng-click="loadTimes(selected.stopID)">
+     </button>
+  </ion-nav-buttons> -->
 
-  <ion-content has-bouncing="true">
+  <ion-content has-bouncing="false">
+    <ion-refresher
+      spinner="dots"
+      on-refresh="loadTimes(selected.stopID)">
+    </ion-refresher>
+
     <ion-list>
       <ion-item ng-repeat="time in times track by $index">
         {{time}}
