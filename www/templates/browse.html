@@ -1,5 +1,15 @@
 <ion-view view-title="Browse">
   <ion-content>
-    
+    <!-- TODO: Search to filter out bus stops. Also, add more stops -->
+    <!-- <label class="item item-input">
+      <i class="icon ion-search placeholder-icon"></i>
+      <form ng-submit="search()">
+        <input type="search" placeholder="Search bus stops" ng-model="search.query"></input>
+      </form>
+    </label> -->
+
+    <ion-checkbox ng-repeat="stop in stops track by stop.index" ng-model="stop.active" ng-change="toggle(stop)">
+      {{stop.name}}
+    </ion-checkbox>
   </ion-content>
 </ion-view>

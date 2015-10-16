@@ -1,8 +1,3 @@
-// Ionic Starter App
-
-// angular.module is a global place for creating, registering and retrieving Angular modules
-// 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
-// the 2nd parameter is an array of 'requires'
 angular.module('starter', ['ionic',  'controllers'])
 
 .config(function($stateProvider, $urlRouterProvider) {
@@ -15,33 +10,25 @@ angular.module('starter', ['ionic',  'controllers'])
     controller: 'AppCtrl'
   })
 
-  .state('app.search', {
-    url: '/search',
+  .state('app.browse', {
+    url: '/browse',
     views: {
       'menuContent': {
-        templateUrl: 'templates/search.html'
+        templateUrl: 'templates/browse.html',
+        controller: 'BrowseCtrl'
       }
     }
   })
 
-  .state('app.browse', {
-      url: '/browse',
-      views: {
-        'menuContent': {
-          templateUrl: 'templates/browse.html',
-          controller: 'BrowseCtrl'
-        }
+  .state('app.stops', {
+    url: '/stops',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/stops.html',
+        controller: 'StopsCtrl'
       }
-    })
-    .state('app.stops', {
-      url: '/stops',
-      views: {
-        'menuContent': {
-          templateUrl: 'templates/stops.html',
-          controller: 'StopsCtrl'
-        }
-      }
-    })
+    }
+  })
 
   .state('app.single', {
     url: '/stops/:name/:stopID',
@@ -69,3 +56,44 @@ angular.module('starter', ['ionic',  'controllers'])
     }
   });
 });
+
+angular.module('controllers', ['ionic'])
+
+.factory('$localStorage', ['$window', function($window) {
+  return {
+    set: function(key, value) {
+      $window.localStorage[key] = value;
+    },
+    get: function(key, defaultValue) {
+      return $window.localStorage[key] || defaultValue;
+    },
+    setArray: function(key, value) {
+      $window.localStorage[key] = JSON.stringify(value);
+    },
+    getArray: function(key) {
+      return JSON.parse($window.localStorage[key] || '[]');
+    },
+    pushArray: function(key, a) {
+      var t = JSON.parse($window.localStorage[key] || '[]');
+
+      if (t.map(function(e) { return e.name; }).indexOf(a.name) >= 0) {
+        return;
+      }
+
+      t.push(a);
+      $window.localStorage[key] = JSON.stringify(t);
+    },
+    remove: function(key, a) {
+      var t = JSON.parse($window.localStorage[key] || '[]');
+      var i = t.map(function(e) { return e.name; }).indexOf(a.name);
+      if (i >= 0) {
+        t.splice(i, 1);
+        $window.localStorage[key] = JSON.stringify(t);
+      }
+    },
+    clear: function() {
+      console.log('Clearing local storage');
+      $window.localStorage.clear();
+    }
+  };
+}]);

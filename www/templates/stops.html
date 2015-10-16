@@ -1,9 +1,11 @@
 <ion-view view-title="Bus Stops">
   <ion-content has-bouncing="true">
     <ion-list>
-      <ion-item ng-repeat="stop in stops" href="#/app/stops/{{stop.name}}/{{stop.stopID}}">
-        {{stop.name}}
-      </ion-item>
+      <div ng-if="myStops">
+        <ion-item ng-repeat="stop in myStops track by stop.index" href="#/app/stops/{{stop.name}}/{{stop.stopID}}">
+          {{stop.name}}
+        </ion-item>
+      </div>
     </ion-list>
   </ion-content>
 </ion-view>
