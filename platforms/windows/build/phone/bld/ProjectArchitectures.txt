@@ -1,1 +1,0 @@
-S:\OneDrive\Programming\ionic\Bus\platforms\windows\CordovaApp.Phone.jsproj;neutral
