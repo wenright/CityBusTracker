@@ -15,10 +15,6 @@
                         {
                             "xml": "<feature name=\"Device\"><param name=\"wp-package\" value=\"Device\" /></feature>",
                             "count": 1
-                        },
-                        {
-                            "xml": "<feature name=\"SplashScreen\"><param name=\"wp-package\" value=\"SplashScreen\" /><param name=\"onload\" value=\"true\" /></feature>",
-                            "count": 1
                         }
                     ]
                 }
@@ -40,9 +36,6 @@
             "PACKAGE_NAME": "{e18ecef0-73ac-11e5-8966-0f000af78adc}"
         },
         "cordova-plugin-device": {
-            "PACKAGE_NAME": "{e18ecef0-73ac-11e5-8966-0f000af78adc}"
-        },
-        "cordova-plugin-splashscreen": {
             "PACKAGE_NAME": "{e18ecef0-73ac-11e5-8966-0f000af78adc}"
         },
         "cordova-plugin-whitelist": {
